@@ -1,0 +1,110 @@
+@startuml
+!theme _none_
+class Roda{
+    -boolean calibrado
+    +Roda()
+    +Calibrar(): void
+    +Esvaziar(): void
+    +GetCalibragem(): boolean
+    +tostring(): String
+}
+
+abstract class Veiculo{
+    -ArrayList<Roda> roda
+    -ArrayList<String> veiculo
+    ~int id
+    ~double valorVenda
+    ~int qtdBlocos
+    ~int distPercorrida
+    -{static} int qtdVeiculos
+    +Veiculo(): void
+    +abstract Mover(): void
+    +Mostrarinfo(): void
+    +{static}GetQtdVeiculos(): int
+    +{static}AlterarQtdVeiculos(boolean aux): void
+    +{static}ZerarQtdVeiculos(): void
+    +GetQtdRodas(): int
+    +UmaRoda(int i, boolean acao): void
+    +TodaRodas(boolean acao): void
+    +RodaCalibradas(): boolean
+    +ImprimirVeiculo(): void
+}
+
+abstract class VeiculoMotorizado{
+~double cte
+~float gastoCombustivel
+-float qtdCombustivel
+-final boolean IPVA
++double valorIPVA
++VeiculoMotorizado(): void
++Mover(): void
++MostrarInfo(): void
++Abastecer(float qtdCombustivel): void
+}
+
+class Bicicleta{
++Bicicleta(int id): void
++Mover(): void
++MostrarInfo(): void
+}
+
+class CarroPasseio{
++CarroPasseio(int id): void
++CarroPasseio(int id, int valorVenda): void
++MostrarInfo(): void
+}
+
+class Esportivo{
++Esportivo(int id): void
++Esportivo(int id, int valor): void
++MostrarInfo(): void
+}
+
+class Motocicleta{
++Motocicleta(int id): void
++Motocicleta(int id, int valor): void
++MostrarInfo(): void
+}
+
+interface IPVA{
++final double valorBase
+~CalcularIPVA(double cte): double
+}
+
+
+class Simulador{
+    -Veiculo[] veiculo
+    +Simulador():void
+    +CriarVeiculo(String tipo): void
+    +RemoverVeiculo(int id): void
+    +MostrarinfoTodos(): void
+    +MostrarinfoPorTipo(String tipo): void
+    +MoverPorTipo(String tipo): void
+    +MoverTodos(): void
+    +MoverUm(int id): void
+    +Pista(): void
+    +AbastecerVeiculo(int id, float gasolina): void
+    +EsvaziarCalibrarPorTipo(String tipo, boolean acao): void
+}
+class Corrida{
+    +{static}main(String[] args)
+}
+
+Simulador "1"  --*  "1" Corrida
+
+Roda "2..4"  --*  "1" Veiculo
+
+Veiculo "1..20"  --*  "1" Simulador
+
+VeiculoMotorizado --|>Veiculo
+
+Veiculo <|--Bicicleta
+
+VeiculoMotorizado <|--Motocicleta
+
+VeiculoMotorizado <|--CarroPasseio
+
+VeiculoMotorizado <|--Esportivo
+
+IPVA <|.. VeiculoMotorizado
+@enduml

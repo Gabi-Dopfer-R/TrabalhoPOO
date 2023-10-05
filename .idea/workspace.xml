@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df9f05da-2b06-47e3-bf93-55029deaa1de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/javaca.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LINKUML" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarroPasseio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarroPasseio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Corrida.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Corrida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Corrida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Corrida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IPVA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IPVA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Simulador.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simulador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Simulador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simulador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Veiculo.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veiculo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VeiculoMotorizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VeiculoMotorizado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uml.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/src/uml.plantuml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EuPLVSQhIzEu4kjJ3qRZGtIoZL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/mathe/IdeaProjects/TrabalhoPOO/src"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="TrabalhoPOO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="TrabalhoPOO" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df9f05da-2b06-47e3-bf93-55029deaa1de" name="Changes" comment="" />
+      <created>1663442440274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663442440274</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

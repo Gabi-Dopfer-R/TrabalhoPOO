@@ -1,0 +1,63 @@
+
+o que tem // no incio já foi testado
+
+(1) Incluir ve´ıculo
+	//estourar o limite do vetor
+	//criar um de cada tipo
+	//errar o tipo
+(2) Remover um ve´ıculo
+	//excluir um
+	//exluir um id vazio
+	//excluir um id maior que 19
+	//ecluir um id negativo
+(3) Abastecer ve´ıculo
+	//abastecer id vazio
+	//abastecer id maior que 19
+	//abastecer id negativo
+	//abastecer
+	//abastecer bicicleta
+(4) Movimentar um ve´ıculo espec´ıfico
+	//mover id maior que 19
+	//mover id vazio
+	//mover id negativo
+	//mover id com ipva nao pago
+	//mover id com roda descalibrada
+	//mover id sem gasolina
+	//mover bicicleta
+(5) Movimentar ve´ıculos por tipo
+	//mover cada tipo
+	//mover tipo vazio
+(6) Movimentar todos os ve´ıculos
+	//mover com vetor vazio
+	//mover
+(7) Imprimir todos os dados de todos os ve´ıculos
+I	//imprimir
+	//imprmir com vetor vazio
+(8) Imprimir dados de ve´ıculos por tipo
+	//imprimir cada tipo
+	//imrpmir tipo vazio
+(9) Esvaziar/calibrar um pneu espec´ıfico,
+	//acao invalida
+	//upper case funciona
+	//id do carro vazio
+	//id do carro maior que 19
+	//id do carro negativo
+	//id da roda maior que 4 ou 2(testar ambos)
+	//id da roda negativo
+	//esvaziar
+	//calibrar
+(10) Calibrar todos os pneus de ve´ıculos por tipo
+	//calibrar
+	//upper case funciona
+(11) Esvaziar todos os pneus de ve´ıculos por tipo
+	//esvaziar
+	//upper case funciona
+	//esvaziar tipo vazio
+(12) Imprimir pista de corrida
+	//imprmir
+	//imprimir com veiculos movimentados de cada tipo
+	//imprmir com veiculos da cada tipo
+	//imprimir vetor vazio
+(13) Gravar ve´ıculos em arquivo
+(14) Ler ve´ıculos do arquivo
+(15) Sair da aplica¸c˜ao
